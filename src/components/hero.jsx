@@ -4,6 +4,8 @@ import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion'
 
+
+// Need to fix the parallax image otherwise the images are going off the alignments
 const HeroSection = ({ background, top, className_bg, className_text, className_top, cycleKey }) => {
   const { scrollY } = useScroll();
 
